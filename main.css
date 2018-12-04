@@ -1,0 +1,15 @@
+.header {
+  background: #27273e;
+  position: relative;
+  height: 68px;
+  max-width;
+}
+
+.logo {
+  top: 13px;
+  left: 19px;
+}
+
+.contacts {
+ padding: 22px 20px;
+}
