@@ -1,15 +1,115 @@
+body {
+  padding:0; 
+  margin:0 auto;
+  width:1100px;
+}
+
 .header {
   background: #27273e;
-  position: relative;
-  height: 68px;
-  max-width;
+  width: 100%;
+  max-width: 1100px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 20%;
+  max-width: 1100px;
+  float: left;
+}
+
+.menu {
+  margin-left: 20px;
+  width: 107px;
+  height: 114px;
+}
+
+.page-content {
+  margin-left: 282px;
+}
+
+.news__section {
+  width: 880px;
+  height: 724px;
+  margin-left: 282px;
+}
+.features__title {
+height: 8px;
+color: #212121;
+font-family: "Gotham Pro";
+font-size: 11px;
+font-weight: 700;
+line-height: 51.38px;
+text-transform: uppercase;
+letter-spacing: 2.88px;
+}
+
+.section__title {
+width: 498px;
+height: 40px;
+color: #221f1f;
+font-family: "Gotham Pro";
+font-size: 49px;
+font-weight: 700;
+line-height: 38px;
+}
+
+.features-section {
+  width: 744px;
+  height: 389px;
+}
+
+.social {
+  float: right;
+}
+
+.pagination__display,
+.pagination__controlls,
+.pagination__list,
+.pagination__item {
+  display: inline;
+}
+
+.news__section {
+  width: 80%;
+  max-width: 1100px;
+}
+
+.banner {
+  margin: auto;
 }
 
 .logo {
-  top: 13px;
-  left: 19px;
+  float: left;
+}
+
+.features__item {
+  float: left;
+  width: 200px;
+  height: 290px;
 }
 
 .contacts {
- padding: 22px 20px;
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer {
+  background: #27273e;
+  width: 100%;
+  max-width: 1100px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.copyright__logo {
+  margin: auto;
+}
+
+.copyright__item {
+  width: 20%;
+  max-width: 1100px;
+  float: left;
 }
