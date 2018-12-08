@@ -1,115 +1,169 @@
+@font-face {
+  font-family: "GothamPro";
+  src: url("./fonts/GothamPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("./fonts/GothamPro-Light.woff") format("woff");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("./fonts/GothamPro-LightItalic.woff") format("woff");
+  font-weight: lighter;
+  font-style: italic;
+}
+
 body {
-  padding:0; 
-  margin:0 auto;
-  width:1100px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "GothamPro", Times, serif;
+  margin: 0;
+  line-height: 1.42em;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
 }
 
 .header {
   background: #27273e;
-  width: 100%;
-  max-width: 1100px;
-  padding: 15px;
+  color: #fff;
+}
+
+.container {
   margin: 0 auto;
+  width: 1054px;
 }
 
-.sidebar {
-  width: 20%;
-  max-width: 1100px;
-  float: left;
-}
-
-.menu {
-  margin-left: 20px;
-  width: 107px;
-  height: 114px;
-}
-
-.page-content {
-  margin-left: 282px;
-}
-
-.news__section {
-  width: 880px;
-  height: 724px;
-  margin-left: 282px;
-}
-.features__title {
-height: 8px;
-color: #212121;
-font-family: "Gotham Pro";
-font-size: 11px;
-font-weight: 700;
-line-height: 51.38px;
-text-transform: uppercase;
-letter-spacing: 2.88px;
-}
-
-.section__title {
-width: 498px;
-height: 40px;
-color: #221f1f;
-font-family: "Gotham Pro";
-font-size: 49px;
-font-weight: 700;
-line-height: 38px;
-}
-
-.features-section {
-  width: 744px;
-  height: 389px;
-}
-
-.social {
-  float: right;
-}
-
-.pagination__display,
-.pagination__controlls,
-.pagination__list,
-.pagination__item {
-  display: inline;
-}
-
-.news__section {
-  width: 80%;
-  max-width: 1100px;
-}
-
-.banner {
-  margin: auto;
+.header__container {
+  height: 77px;
+  position: relative;
 }
 
 .logo {
-  float: left;
-}
-
-.features__item {
-  float: left;
-  width: 200px;
-  height: 290px;
+  top: 13px;
+  left: 0;
+  position: absolute;
 }
 
 .contacts {
-  float: right;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+   top: 13px;
+  right: 0;
+  position: absolute;
+  font-style: normal;
+  text-align: right;
 }
 
-.footer {
+.contacts__phone {
+  color: inherit;
+  font-size: 21px;
+  font-family: "GothamPro"
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contacts__description {
+  color: rgba(236, 30, 121, .7);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-decoration: underline;
+}
+
+.banner {
   background: #27273e;
-  width: 100%;
-  max-width: 1100px;
-  padding: 15px;
-  margin: 0 auto;
 }
 
-.copyright__logo {
-  margin: auto;
+.sidebar {
+  width: 107px;
+  margin-top: 27px;
+  display: inline-block;
+  vertical-align: top;
 }
 
-.copyright__item {
-  width: 20%;
-  max-width: 1100px;
-  float: left;
+.menu__link {
+  color: #ec1e79;
+  font-family: "GothamPro";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 3.34em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
 }
+
+.menu__item {
+  margin-top: 39px;
+}
+
+.menu__link:hover {
+  color: #000000;
+}
+
+.menu__link:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 18px;
+  background:  center center no-repeat;
+}
+
+.menu__link--main:before {
+background-image: url('./img/icon/menu/main_icon.png');
+}
+
+.menu__link--main:hover:before {
+  background-image: url('./img/icon/menu/main_icon_hover.png');
+  }
+
+.menu__link--feed:before {
+  background-image: url('./img/icon/menu/feed_icon.png');
+}
+
+.menu__link--feed:hover:before {
+  background-image: url('./img/icon/menu/feed_icon_hover.png');
+}
+
+.menu__link--wallet:before {
+  background-image: url('./img/icon/menu/wallet_icon.png');
+}
+
+.menu__link--wallet:hover:before {
+  background-image: url('./img/icon/menu/wallet_icon_hover.png');
+}
+
+.menu__item--active .menu__link {
+  color: #000;
+  text-decoration: underline
+}
+
+.menu__item--active .menu__link--main:before {
+  background-image: url('./img/icon/menu/main_icon_hover.png');
+}
+
+.page-content {
+  width: 813px;
+  margin-top: 67px;
+  padding-left: 67px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section__title {
+  margin-top: 0;
+}
+
