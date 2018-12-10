@@ -1,0 +1,21 @@
+.copyright__text {
+  color: #ffffff;
+  font-family: "Gotham";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+
+.copyright__link {
+  width: 214px;
+  position: absolute;
+  top: 14px;
+  left: 0;
+}
+
+.copyright__ls {
+  font-family: "Gotham";
+  font-weight: 700;
+  text-decoration: underline;
+  color: #fff;
+}
