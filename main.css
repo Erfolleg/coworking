@@ -332,10 +332,6 @@ background-image: url('./img/icon/menu/main_icon.png');
   padding: 7px 10px;
 }
 
-.pagination__next {
-  margin-left: 18px;
-}
-
 .pagination__item--active .pagination__link {
   width: 25px;
   height: 25px;
