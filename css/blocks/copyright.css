@@ -1,3 +1,14 @@
+.copyright__developer {
+  width: 33%;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
+
+.copyright__developer_ls {
+  width: 248px;
+}
+
 .copyright__text {
   color: #ffffff;
   font-family: "Gotham";
@@ -6,16 +17,15 @@
   line-height: 1.3em;
 }
 
-.copyright__link {
-  width: 214px;
-  position: absolute;
-  top: 14px;
-  left: 0;
-}
 
 .copyright__ls {
   font-family: "Gotham";
   font-weight: 700;
   text-decoration: underline;
   color: #fff;
+}
+
+.copyright__developer-name {
+  font-family: "Gotham";
+  font-weight: 700;
 }
