@@ -38,6 +38,17 @@ ul li {
   width: 1054px;
 }
 
-.main {
-  margin-bottom: 70px;
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
 }
