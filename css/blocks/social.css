@@ -13,6 +13,14 @@
   line-height: 2em;
 }
 
+.social__icon {
+  margin-right: 7px;
+}
+
+.social__icon:nth-child(5) {
+  margin-right: 0;
+}
+
 .social__link {
   content: "";
   display: inline-block;

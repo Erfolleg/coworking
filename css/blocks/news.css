@@ -13,7 +13,7 @@
 .news__avatar {
   display: inline-block;
   vertical-align: top;
-  margin-right: 20px;
+  margin-right: 9px;
 }
 
 .news__discription {
@@ -30,17 +30,19 @@
   font-family: "Roboto";
   font-size: 14px;
   font-weight: lighter;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 .news__name {
+  margin-bottom: 9px;
   font-family: "Roboto";
   font-weight: bold;
   line-height: 1.5em;
 }
 
 .news__text {
+  margin: 0;
   font-family: "Roboto";
   font-weight: lighter;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
