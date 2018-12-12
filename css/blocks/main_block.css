@@ -1,0 +1,7 @@
+.main {
+  margin-bottom: 70px;
+}
+
+.main__comments {
+  display: flex;
+  flex-direction: column;

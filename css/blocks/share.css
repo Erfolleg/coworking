@@ -1,0 +1,26 @@
+.share {
+  content: "";
+  display: flex;
+  height: 174px;
+  background-color: #27273e;
+}
+
+.share__img {
+  background-image: url('../../img/Group_1.png');
+ }
+
+.share__text {
+  width: 611px;
+  margin: 48px auto;
+  color: #ffffff;
+  font-family: "GothamPro";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.share__discount {
+  color: #ec1e79;
+  font-family: "GothamPro";
+  font-weight: 700;
+}

@@ -45,3 +45,7 @@
   background-color: #27273e;
   color: #fff;
 }
+
+.page__comments .pagination__sheets--active .pagination__link {
+  color: #ec1e79;
+}

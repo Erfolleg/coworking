@@ -38,6 +38,12 @@ ul li {
   width: 1054px;
 }
 
+.container__main {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 57px;
+}
+
 button {
   border: none;
   background: transparent;

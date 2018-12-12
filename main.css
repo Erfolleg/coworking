@@ -2,10 +2,12 @@
 @import url('./css/layout/normalize.css');
 @import url('./css/layout/base.css');
 
+@import url('./css/blocks/main_block.css');
 @import url('./css/blocks/header.css');
 @import url('./css/blocks/logo.css');
 @import url('./css/blocks/contacts.css');
 @import url('./css/blocks/banner.css');
+@import url('./css/blocks/breadcrumbs.css');
 @import url('./css/blocks/menu.css');
 @import url('./css/blocks/page.css');
 @import url('./css/blocks/features.css');
@@ -16,4 +18,6 @@
 @import url('./css/blocks/footer.css');
 @import url('./css/blocks/copyright.css');
 @import url('./css/blocks/social.css');
+@import url('./css/blocks/comments.css');
+@import url('./css/blocks/share.css');
 

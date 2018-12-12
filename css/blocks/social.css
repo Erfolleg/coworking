@@ -13,6 +13,12 @@
   line-height: 2em;
 }
 
+.social__network{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .social__icon {
   margin-right: 7px;
 }
@@ -23,8 +29,7 @@
 
 .social__link {
   content: "";
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
   width: 20px;
   height: 20px;
   border-radius: 50%;
