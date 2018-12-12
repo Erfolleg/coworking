@@ -1,0 +1,75 @@
+.sidebar {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 61px;
+  transform: translate(-5%, -5%)
+}
+
+.menu__item {
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.menu__link {
+  color: #ec1e79;
+  font-family: "GothamPro";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 3.34em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.menu__item:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.menu__link:hover {
+  color: #000000;
+}
+
+.menu__link:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 18px;
+  background:  center center no-repeat;
+  margin-right: 18px;
+  vertical-align: middle;
+}
+
+.menu__link--main:before {
+background-image: url('./img/icon/menu/main_icon.png');
+}
+
+.menu__link--main:hover:before {
+  background-image: url('./img/icon/menu/main_icon_hover.png');
+  }
+
+.menu__link--feed:before {
+  background-image: url('../../img/icon/menu/feed_icon.png');
+}
+
+.menu__link--feed:hover:before {
+  background-image: url('../../img/icon/menu/feed_icon_hover.png');
+}
+
+.menu__link--wallet:before {
+  background-image: url('../../img/icon/menu/wallet_icon.png');
+}
+
+.menu__link--wallet:hover:before {
+  background-image: url('../../img/icon/menu/wallet_icon_hover.png');
+}
+
+.menu__item--active .menu__link {
+  color: #000;
+  text-decoration: underline
+}
+
+.menu__item--active .menu__link--main:before {
+  background-image: url('../../img/icon/menu/main_icon_hover.png');
+}

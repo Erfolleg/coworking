@@ -1,0 +1,82 @@
+.social {
+  position: absolute;
+  right: 0;
+  top: 14px;
+}
+
+.social__text-link {
+  padding: 0;
+  color: #ffffff;
+  font-family: "Gotham";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.social__icon {
+  margin-right: 7px;
+}
+
+.social__icon:nth-child(5) {
+  margin-right: 0;
+}
+
+.social__link {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:  center center no-repeat;
+}
+
+.social__icon-vk {
+  background-image: url('../../img/icon/vk.png');
+  background-color: #d4d4d8;
+}
+
+.social__icon-vk:hover {
+  background-image: url('../../img/icon/vk.png');
+  background-color: #ec1e79;
+}
+
+.social__icon-fb {
+  background-image: url('../../img/icon/fb.png');
+  background-color: #d4d4d8;
+}
+
+.social__icon-fb:hover {
+  background-image: url('../../img/icon/fb.png');
+  background-color: #ec1e79;
+}
+
+.social__icon-google {
+  background-image: url('../../img/icon/google.png');
+  background-color: #d4d4d8;
+}
+
+.social__icon-google:hover {
+  background-image: url('../../img/icon/google.png');
+  background-color: #ec1e79;
+}
+
+.social__icon-twitter {
+  background-image: url('../../img/icon/twitter.png');
+  background-color: #d4d4d8;
+}
+
+.social__icon-twitter:hover {
+  background-image: url('../../img/icon/twitter.png');
+  background-color: #ec1e79;
+}
+
+.social__icon-mail {
+  background-image: url('../../img/icon/mail.png');
+  background-color: #d4d4d8;
+}
+
+.social__icon-mail:hover {
+  background-image: url('../../img/icon/mail.png');
+  background-color: #ec1e79;
+}
