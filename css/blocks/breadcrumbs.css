@@ -1,3 +1,7 @@
+.breadcrumbs {
+  margin-bottom: 19px;
+}
+
 .breadcrumbs__item {
   display: inline-flex;
 }
@@ -6,7 +10,7 @@
   opacity: 0.8;
   font-family: "GothamPro";
   font-size: 14px;
-  font-weight: 400;
+  font-weight: lighter;
   line-height: 1.3em;
   color: #ec1e79;
   text-decoration: underline;

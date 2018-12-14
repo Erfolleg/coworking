@@ -1,5 +1,13 @@
-.form__review {
+.container__form {
   width: 700px;
   height: 427px;
+  margin: 0 auto;
   background-color: #f5f5f5;
+}
+
+.form__review {
+  width: 562px;
+  height: 327px;
+  padding-top: 50px;
+  margin: 0 auto;
 }

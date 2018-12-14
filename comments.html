@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -15,7 +15,7 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <a href="#" class="logo">
+          <a href="./index.html" class="logo">
             <img src="./img/logo-fig.png" alt="Логотип" class="logo__image">
           </a>
           <address class="contacts">
@@ -38,7 +38,7 @@
                   <a href="./comments.html" class="menu__link menu__link--feed">Отзывы </a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link menu__link--wallet">Тарифы </a>
+                  <a href="./prices.html" class="menu__link menu__link--wallet">Тарифы </a>
                 </li>
               </ul>
             </nav>
@@ -166,11 +166,23 @@
       </div>
       <div class="container">
         <div class="container__form">
-          <form action="#" class="form__review">
-            <h2 class="section__title">Оставить отзыв</h2>
-            <input type="text" class="form__name" placeholder="Андрей">
-            <input type="text" class="form__link-vk" placeholder="vk.com/example">
-          </form>
+          <div class="form__review">
+              <form action="#" class="form__review--enter">
+                  <h2 class="section__title">Оставить отзыв</h2>
+                  <label for="name" class="form__name-label">Ваше имя</label>
+                  <input type="text" class="form__name" placeholder="Андрей">
+                  <label for="name" class="form__name-label">Ссылка на профиль VK</label>
+                  <input type="text" class="form__link-vk" placeholder="vk.com/example">
+                  <label for="name" class="form__name-label">Текст отзыва</label>
+                  <textarea name="text" id="" cols="60" rows="5">Мне понравилось</textarea>
+                  <label for="name" class="form__name-label">Отображать фото в отзыве?</label>
+                  <input type="radio" name="" class="form__radio" value="Да">Да
+                  <div class="form__radio-control"></div>
+                  <input type="radio" name="" class="form__radio" value="Нет">Нет
+                  <div class="form__radio-control"></div>
+                </form>
+          </div>
+          
         </div>
       </div>
     </main>

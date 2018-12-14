@@ -44,6 +44,7 @@
 .social__icon-vk:hover {
   background-image: url('../../img/icon/vk.png');
   background-color: #ec1e79;
+  transition: 0.3s;
 }
 
 .social__icon-fb {
@@ -54,6 +55,7 @@
 .social__icon-fb:hover {
   background-image: url('../../img/icon/fb.png');
   background-color: #ec1e79;
+  transition: 0.3s;
 }
 
 .social__icon-google {
@@ -64,6 +66,7 @@
 .social__icon-google:hover {
   background-image: url('../../img/icon/google.png');
   background-color: #ec1e79;
+  transition: 0.3s;
 }
 
 .social__icon-twitter {
@@ -74,6 +77,7 @@
 .social__icon-twitter:hover {
   background-image: url('../../img/icon/twitter.png');
   background-color: #ec1e79;
+  transition: 0.3s;
 }
 
 .social__icon-mail {
@@ -84,4 +88,5 @@
 .social__icon-mail:hover {
   background-image: url('../../img/icon/mail.png');
   background-color: #ec1e79;
+  transition: 0.3s;
 }
