@@ -15,13 +15,17 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <a href="./index.html" class="logo">
-            <img src="./img/logo-fig.png" alt="Логотип" class="logo__image">
-          </a>
-          <address class="contacts">
-            <a href="tel:+78000039210" class="contacts__phone">8 (800)00-392-10</a>
-            <div class="contacts__description">График работы</div>
-          </address>
+          <div class="header__col">
+            <a href="./index.html" class="logo">
+              <img src="./img/logo-fig.png" alt="Логотип" class="logo__image">
+            </a>
+          </div>
+          <div class="header__col header__col--align-right">
+            <address class="contacts">
+              <a href="tel:+78000039210" class="contacts__phone">8 (800)00-392-10</a>
+              <div class="contacts__description">График работы</div>
+            </address>
+          </div>
         </div>
       </header>
 
@@ -32,7 +36,9 @@
           </a>
         </div>
         <div class="container">
+
           <div class="container__main">
+
             <aside class="sidebar">
               <nav class="menu">
                 <ul class="menu__list">
@@ -49,8 +55,8 @@
               </nav>
             </aside>
             <div class="page-content">
-              <div class="features-section">
-                <h2 class="section__title">Особенности</h2>
+              <div class="features__section">
+                <h2 class="section__title features__section--title">Особенности</h2>
                 <ul class="features">
                   <li class="features__office">
                     <div class="features__icon">
@@ -120,10 +126,12 @@
                 <ul class="news__list">
                   <li class="news__sections">
                     <div class="news__avatar">
-                      <img src="./img/Layer_6.jpg" alt="" class="news__avatar-pic">
+                      <div class="news__avatar--img">
+                        <img src="./img/Layer_6.jpg" alt="" class="news__avatar-pic">
+                      </div>
                     </div>
                     <div class="news__discription">
-                      <div class="news__date">12.10.2016</div>
+                      <time class="news__date">12.10.2016</time>
                       <div class="news__name">Чёрная дыра скидок!</div>
                       <p class="news__text">
                         Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в
@@ -136,10 +144,12 @@
                   </li>
                   <li class="news__sections">
                     <div class="news__avatar">
-                      <img src="./img/Layer_7.jpg" alt="" class="news__avatar-pic">
+                      <div class="news__avatar--img">
+                        <img src="./img/Layer_7.jpg" alt="" class="news__avatar-pic">
+                      </div>
                     </div>
                     <div class="news__discription">
-                      <div class="news__date">01.02.2016</div>
+                      <time class="news__date">01.02.2016</time>
                       <div class="news__name">Заражай друзей, получай призы!</div>
                       <p class="news__text">
                         Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет
@@ -152,10 +162,12 @@
                   </li>
                   <li class="news__sections">
                     <div class="news__avatar">
-                      <img src="./img/Layer_9.jpg" alt="" class="news__avatar-pic">
+                      <div class="news__avatar--img">
+                        <img src="./img/Layer_9.jpg" alt="" class="news__avatar-pic">
+                      </div>
                     </div>
                     <div class="news__discription">
-                      <div class="news__date">22.12.2015</div>
+                      <time class="news__date">22.12.2015</time>
                       <div class="news__name">Новое рабочее место для бизнесменов.</div>
                       <p class="news__text">
                         Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в
@@ -208,44 +220,52 @@
     <footer class="footer">
       <div class="container">
         <div class="copyright">
-          <div class="copyright__developer">
-            <div class="copyright__developer_ls copyright__text">
-              Сделано с любовью и старанием на курсе "HTML + CSS" в
-              <a href="https://loftschool.com/" class="copyright__ls">LoftSchool
-            </div>
-            <div class="copyright__developer-work copyright__text"></a> Автор работы:
-              <b class="copyright__developer-name">Хисаев Булат</b>
+          <div class="footer__col">
+            <div class="copyright__developer">
+              <div class="copyright__developer_ls copyright__text">
+                Сделано с любовью и старанием на курсе "HTML + CSS" в
+                <a href="https://loftschool.com/" class="copyright__ls">LoftSchool</a>
+              </div>
+              <div class="copyright__text"> Автор работы:
+                <b class="copyright__developer-name">Хисаев Булат</b>
+              </div>
             </div>
           </div>
-          <div class="footer__logo">
-            <img src="./img/logo-fig.png" alt="" class="copyright__logo">
-          </div>
-          <div class="social">
-            <div class="social__text-link">
-              Наши социальные сети
+          <div class="footer__col footer__col--align-center">
+            <div class="footer__logo">
+              <a href="./index.html" class="logo">
+                <img src="./img/logo-fig.png" alt="Логотип" class="logo__image">
+              </a>
             </div>
-            <ul class="social__network">
-              <il class="social__icon">
-                <a target="_blank" href="#" class="social__link social__icon-vk">
-                </a>
-              </il>
-              <il class="social__icon">
-                <a target="_blank" href="#" class="social__link social__icon-fb">
-                </a>
-              </il>
-              <il class="social__icon">
-                <a target="_blank" href="#" class="social__link social__icon-google">
-                </a>
-              </il>
-              <il class="social__icon">
-                <a target="_blank" href="#" class="social__link social__icon-twitter">
-                </a>
-              </il>
-              <il class="social__icon">
-                <a target="_blank" href="#" class="social__link social__icon-mail">
-                </a>
-              </il>
-            </ul>
+          </div>
+          <div class="footer__col footer__col--align-right">
+            <div class="social">
+              <div class="social__text-link">
+                Наши социальные сети
+              </div>
+              <ul class="social__network">
+                <il class="social__icon">
+                  <a target="_blank" href="#" class="social__link social__icon-vk">
+                  </a>
+                </il>
+                <il class="social__icon">
+                  <a target="_blank" href="#" class="social__link social__icon-fb">
+                  </a>
+                </il>
+                <il class="social__icon">
+                  <a target="_blank" href="#" class="social__link social__icon-google">
+                  </a>
+                </il>
+                <il class="social__icon">
+                  <a target="_blank" href="#" class="social__link social__icon-twitter">
+                  </a>
+                </il>
+                <il class="social__icon">
+                  <a target="_blank" href="#" class="social__link social__icon-mail">
+                  </a>
+                </il>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

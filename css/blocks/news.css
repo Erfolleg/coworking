@@ -2,9 +2,13 @@
   margin-bottom: 56px;
 }
 
+.news__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .news__sections {
   display: flex;
-  flex-direction: row;
   margin-bottom: 56px;
 }
 
@@ -13,11 +17,22 @@
 }
 
 .news__avatar {
-  margin-right: 9px;
+  width: 17.9%;
+}
+
+.news__avatar--img {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.news__avatar-pic {
+  display: block;
+  max-width: 100%;
 }
 
 .news__discription {
-  width: 691px;
+  width: 82.1%;
   color: #221f1f;
   font-family: "Roboto";
   font-weight: 300;

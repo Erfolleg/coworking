@@ -15,13 +15,17 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <a href="./index.html" class="logo">
-            <img src="./img/logo-fig.png" alt="Логотип" class="logo__image">
-          </a>
-          <address class="contacts">
-            <a href="tel:+78000039210" class="contacts__phone">8 (800)00-392-10</a>
-            <div class="contacts__description">График работы</div>
-          </address>
+          <div class="header__col">
+            <a href="./index.html" class="logo">
+              <img src="./img/logo-fig.png" alt="Логотип" class="logo__image">
+            </a>
+          </div>
+          <div class="header__col header__col--align-right">
+            <address class="contacts">
+              <a href="tel:+78000039210" class="contacts__phone">8 (800)00-392-10</a>
+              <div class="contacts__description">График работы</div>
+            </address>
+          </div>
         </div>
       </header>
     </div>
@@ -60,10 +64,12 @@
               <ul class="comments__list">
                 <li class="comments__sections">
                   <div class="comments__avatar">
-                    <img src="./img/oleg.jpg" alt="" class="comments__avatar-pic">
+                    <div class="comments__avatar--img">
+                      <img src="./img/oleg.jpg" alt="" class="comments__avatar-pic">
+                    </div>
                   </div>
                   <div class="comments__discription">
-                    <div class="comments__date">12.10.2016</div>
+                    <time class="comments__date">12.10.2016</time>
                     <div class="comments__name">Олег Павлов</div>
                     <p class="comments__text">
                       Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров.
@@ -77,10 +83,12 @@
                 </li>
                 <li class="comments__sections">
                   <div class="comments__avatar">
-                    <img src="./img/ernest.jpg" alt="" class="comments__avatar-pic">
+                    <div class="comments__avatar--img">
+                      <img src="./img/ernest.jpg" alt="" class="comments__avatar-pic">
+                    </div>
                   </div>
                   <div class="comments__discription">
-                    <div class="comments__date">01.02.2016</div>
+                    <time class="comments__date">01.02.2016</time>
                     <div class="comments__name">Эрнест Изиль</div>
                     <p class="comments__text">
                       Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно
@@ -92,10 +100,12 @@
                 </li>
                 <li class="comments__sections">
                   <div class="comments__avatar">
-                    <img src="./img/logo-fig.png" alt="" class="comments__avatar-pic">
+                    <div class="comments__avatar--img">
+                      <img src="./img/logo-fig.png" alt="" class="comments__avatar-pic">
+                    </div>
                   </div>
                   <div class="comments__discription">
-                    <div class="comments__date">22.12.2015</div>
+                    <time class="comments__date">22.12.2015</time>
                     <div class="comments__name">Елена Сургай</div>
                     <p class="comments__text">
                       Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место
@@ -109,10 +119,12 @@
                 </li>
                 <li class="comments__sections">
                   <div class="comments__avatar">
-                    <img src="./img/natalya.jpg" alt="" class="comments__avatar-pic">
+                    <div class="comments__avatar--img">
+                      <img src="./img/natalya.jpg" alt="" class="comments__avatar-pic">
+                    </div>
                   </div>
                   <div class="comments__discription">
-                    <div class="comments__date">14.08.2015</div>
+                    <time class="comments__date">14.08.2015</time>
                     <div class="comments__name">Наталья Осадчая</div>
                     <p class="comments__text">
                       Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все
@@ -160,29 +172,44 @@
         </div>
       </div>
       <div class="share share__img">
-        <p class="share__text">Для наших новых клиентов мы предлагаем
-          <b class="share__discount">скидку 50%</b> на
-          первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</p>
+        <div class="share__pattern">
+          <p class="share__text">Для наших новых клиентов мы предлагаем
+            <b class="share__discount">скидку 50%</b>
+            на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+          </p>
+        </div>
       </div>
       <div class="container">
         <div class="container__form">
           <div class="form__review">
-              <form action="#" class="form__review--enter">
-                  <h2 class="section__title">Оставить отзыв</h2>
-                  <label for="name" class="form__name-label">Ваше имя</label>
-                  <input type="text" class="form__name" placeholder="Андрей">
-                  <label for="name" class="form__name-label">Ссылка на профиль VK</label>
-                  <input type="text" class="form__link-vk" placeholder="vk.com/example">
+            <form action="#" class="form__review--enter">
+              <h2 class="section__title section__title--form">Оставить отзыв</h2>
+              <div class="form__input--text">
+                <div class="from__name--vk">
+                  <div class="form__name">
+                    <label for="name" class="form__name--label">Ваше имя</label>
+                    <input type="text" class="form__name--input" placeholder="Андрей">
+                  </div>
+                  <div class="form__name">
+                    <label for="name" class="form__name-label">Ссылка на профиль VK</label>
+                    <input type="text" class="form__link-vk" placeholder="vk.com/example">
+                  </div>
+                </div>
+                <div class="form__text--reviews">
                   <label for="name" class="form__name-label">Текст отзыва</label>
-                  <textarea name="text" id="" cols="60" rows="5">Мне понравилось</textarea>
+                  <textarea name="comment" id="" cols="60" rows="5">Мне понравилось</textarea>
+                </div>
+                <div class="form__radio">
                   <label for="name" class="form__name-label">Отображать фото в отзыве?</label>
-                  <input type="radio" name="" class="form__radio" value="Да">Да
-                  <div class="form__radio-control"></div>
-                  <input type="radio" name="" class="form__radio" value="Нет">Нет
-                  <div class="form__radio-control"></div>
-                </form>
+                  <input type="radio" name="foto" class="form__radio--control" value="Да">Да
+                  <input type="radio" name="foto" class="form__radio--control" value="Нет">Нет
+                </div>
+                <div class="form__send">
+                  <input type="submit" class="form__submit--send">
+                </div>
+              </div>
+            </form>
           </div>
-          
         </div>
       </div>
     </main>
@@ -191,44 +218,52 @@
   <footer class="footer">
     <div class="container">
       <div class="copyright">
-        <div class="copyright__developer">
-          <div class="copyright__developer_ls copyright__text">
-            Сделано с любовью и старанием на курсе "HTML + CSS" в
-            <a href="https://loftschool.com/" class="copyright__ls">LoftSchool
-          </div>
-          <div class="copyright__developer-work copyright__text"></a> Автор работы:
-            <b class="copyright__developer-name">Хисаев Булат</b>
+        <div class="footer__col">
+          <div class="copyright__developer">
+            <div class="copyright__developer_ls copyright__text">
+              Сделано с любовью и старанием на курсе "HTML + CSS" в
+              <a href="https://loftschool.com/" class="copyright__ls">LoftSchool</a>
+            </div>
+            <div class="copyright__text"> Автор работы:
+              <b class="copyright__developer-name">Хисаев Булат</b>
+            </div>
           </div>
         </div>
-        <div class="footer__logo">
-          <img src="./img/logo-fig.png" alt="" class="copyright__logo">
-        </div>
-        <div class="social">
-          <div class="social__text-link">
-            Наши социальные сети
+        <div class="footer__col footer__col--align-center">
+          <div class="footer__logo">
+            <a href="./index.html" class="logo">
+              <img src="./img/logo-fig.png" alt="Логотип" class="logo__image">
+            </a>
           </div>
-          <ul class="social__network">
-            <il class="social__icon">
-              <a target="_blank" href="#" class="social__link social__icon-vk">
-              </a>
-            </il>
-            <il class="social__icon">
-              <a target="_blank" href="#" class="social__link social__icon-fb">
-              </a>
-            </il>
-            <il class="social__icon">
-              <a target="_blank" href="#" class="social__link social__icon-google">
-              </a>
-            </il>
-            <il class="social__icon">
-              <a target="_blank" href="#" class="social__link social__icon-twitter">
-              </a>
-            </il>
-            <il class="social__icon">
-              <a target="_blank" href="#" class="social__link social__icon-mail">
-              </a>
-            </il>
-          </ul>
+        </div>
+        <div class="footer__col footer__col--align-right">
+          <div class="social">
+            <div class="social__text-link">
+              Наши социальные сети
+            </div>
+            <ul class="social__network">
+              <il class="social__icon">
+                <a target="_blank" href="#" class="social__link social__icon-vk">
+                </a>
+              </il>
+              <il class="social__icon">
+                <a target="_blank" href="#" class="social__link social__icon-fb">
+                </a>
+              </il>
+              <il class="social__icon">
+                <a target="_blank" href="#" class="social__link social__icon-google">
+                </a>
+              </il>
+              <il class="social__icon">
+                <a target="_blank" href="#" class="social__link social__icon-twitter">
+                </a>
+              </il>
+              <il class="social__icon">
+                <a target="_blank" href="#" class="social__link social__icon-mail">
+                </a>
+              </il>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

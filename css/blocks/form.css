@@ -1,13 +1,25 @@
 .container__form {
-  width: 700px;
-  height: 427px;
+  width: 66%;
   margin: 0 auto;
   background-color: #f5f5f5;
 }
 
 .form__review {
-  width: 562px;
-  height: 327px;
-  padding-top: 50px;
-  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 50px 70px;
+}
+
+.form__input--text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.from__name--vk {
+  flex-direction: row;
+}
+
+.form__name {
+  flex-direction: column;
+  flex: 1;
 }

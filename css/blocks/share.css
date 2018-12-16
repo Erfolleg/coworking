@@ -1,14 +1,19 @@
 .share {
   content: "";
   display: flex;
-  height: 174px;
   background-color: #27273e;
   margin-bottom: 57px;
 }
 
 .share__img {
   background-image: url('../../img/Group_1.png');
- }
+}
+
+.share__pattern {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
 
 .share__text {
   width: 660px;

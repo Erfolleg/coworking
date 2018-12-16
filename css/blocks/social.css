@@ -1,7 +1,5 @@
 .social {
-  position: absolute;
-  right: 0;
-  top: 14px;
+  justify-content: flex-end;
 }
 
 .social__text-link {

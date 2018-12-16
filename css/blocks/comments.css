@@ -1,6 +1,10 @@
+.comments__list {
+    display: flex;
+  flex-wrap: wrap;
+}
+
 .comments__sections {
   display: flex;
-  flex-direction: row;
   margin-bottom: 28px;
 }
 
@@ -14,19 +18,23 @@ li.comments__sections:nth-child(4) {
 }
 
 .comments__avatar {
-  margin-right: 25px;
-  background-size: auto;
+  width: 20%;
+  margin-right: 15px;
+}
+
+.comments__avatar--img {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .comments__avatar-pic {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: contain;
+  display: block;
+  max-width: 100%;
 }
 
 .comments__discription {
-  width: 691px;
+  width: 82.1%;
   color: #221f1f;
   font-family: "Roboto";
   font-weight: 300;

@@ -1,15 +1,19 @@
 .footer {
   background: #27273e;
+  flex: 1;
+  padding: 10px 0;
 }
 
-.footer .container {
-  height: 77px;
-  position: relative;
+.footer__col {
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
 
-.footer__logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
+.footer__col--align-right {
+  justify-content: flex-end;
+}
+
+.footer__col--align-center {
+    justify-content: center;
 }

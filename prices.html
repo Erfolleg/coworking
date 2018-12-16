@@ -15,13 +15,17 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <a href="./index.html" class="logo">
-            <img src="./img/logo-fig.png" alt="Логотип" class="logo__image">
-          </a>
-          <address class="contacts">
-            <a href="tel:+78000039210" class="contacts__phone">8 (800)00-392-10</a>
-            <div class="contacts__description">График работы</div>
-          </address>
+          <div class="header__col">
+            <a href="./index.html" class="logo">
+              <img src="./img/logo-fig.png" alt="Логотип" class="logo__image">
+            </a>
+          </div>
+          <div class="header__col header__col--align-right">
+            <address class="contacts">
+              <a href="tel:+78000039210" class="contacts__phone">8 (800)00-392-10</a>
+              <div class="contacts__description">График работы</div>
+            </address>
+          </div>
         </div>
       </header>
     </div>
@@ -148,23 +152,35 @@
               <h2 class="section__title">Партнёры</h2>
               <div class="partners__label">
                 <ul class="partners__list">
-                  <li class="partners__label--pic">
-                    <img src="./img/vinter.png" alt="" class="partners__pic">
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/vinter.png" alt="Винтер канцелярия" class="partners__pic">
+                    </a>
                   </li>
-                  <li class="partners__label--pic">
-                    <img src="./img/drop.png" alt="" class="partners__pic">
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/drop.png" alt="DROP" class="partners__pic">
+                    </a>
                   </li>
-                  <li class="partners__label--pic">
-                    <img src="./img/anna.png" alt="" class="partners__pic">
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/anna.png" alt="Библтотека Анна Хамматова" class="partners__pic">
+                    </a>
                   </li>
-                  <li class="partners__label--pic">
-                    <img src="./img/tishkin.png" alt="" class="partners__pic">
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/tishkin.png" alt="Тишкин" class="partners__pic">
+                    </a>
                   </li>
-                  <li class="partners__label--pic">
-                    <img src="./img/pufok.png" alt="" class="partners__pic">
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/pufok.png" alt="Пуфок" class="partners__pic">
+                    </a>
                   </li>
-                  <li class="partners__label--pic">
-                    <img src="./img/avantag.png" alt="" class="partners__pic">
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/avantag.png" alt="Авантаж" class="partners__pic">
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -178,44 +194,52 @@
   <footer class="footer">
     <div class="container">
       <div class="copyright">
-        <div class="copyright__developer">
-          <div class="copyright__developer_ls copyright__text">
-            Сделано с любовью и старанием на курсе "HTML + CSS" в
-            <a href="https://loftschool.com/" class="copyright__ls">LoftSchool
-          </div>
-          <div class="copyright__developer-work copyright__text"></a> Автор работы:
-            <b class="copyright__developer-name">Хисаев Булат</b>
+        <div class="footer__col">
+          <div class="copyright__developer">
+            <div class="copyright__developer_ls copyright__text">
+              Сделано с любовью и старанием на курсе "HTML + CSS" в
+              <a href="https://loftschool.com/" class="copyright__ls">LoftSchool</a>
+            </div>
+            <div class="copyright__text"> Автор работы:
+              <b class="copyright__developer-name">Хисаев Булат</b>
+            </div>
           </div>
         </div>
-        <div class="footer__logo">
-          <img src="./img/logo-fig.png" alt="" class="copyright__logo">
-        </div>
-        <div class="social">
-          <div class="social__text-link">
-            Наши социальные сети
+        <div class="footer__col footer__col--align-center">
+          <div class="footer__logo">
+            <a href="./index.html" class="logo">
+              <img src="./img/logo-fig.png" alt="Логотип" class="logo__image">
+            </a>
           </div>
-          <ul class="social__network">
-            <il class="social__icon">
-              <a target="_blank" href="#" class="social__link social__icon-vk">
-              </a>
-            </il>
-            <il class="social__icon">
-              <a target="_blank" href="#" class="social__link social__icon-fb">
-              </a>
-            </il>
-            <il class="social__icon">
-              <a target="_blank" href="#" class="social__link social__icon-google">
-              </a>
-            </il>
-            <il class="social__icon">
-              <a target="_blank" href="#" class="social__link social__icon-twitter">
-              </a>
-            </il>
-            <il class="social__icon">
-              <a target="_blank" href="#" class="social__link social__icon-mail">
-              </a>
-            </il>
-          </ul>
+        </div>
+        <div class="footer__col footer__col--align-right">
+          <div class="social">
+            <div class="social__text-link">
+              Наши социальные сети
+            </div>
+            <ul class="social__network">
+              <il class="social__icon">
+                <a target="_blank" href="#" class="social__link social__icon-vk">
+                </a>
+              </il>
+              <il class="social__icon">
+                <a target="_blank" href="#" class="social__link social__icon-fb">
+                </a>
+              </il>
+              <il class="social__icon">
+                <a target="_blank" href="#" class="social__link social__icon-google">
+                </a>
+              </il>
+              <il class="social__icon">
+                <a target="_blank" href="#" class="social__link social__icon-twitter">
+                </a>
+              </il>
+              <il class="social__icon">
+                <a target="_blank" href="#" class="social__link social__icon-mail">
+                </a>
+              </il>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
