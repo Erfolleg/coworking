@@ -10,16 +10,120 @@
   padding: 50px 70px;
 }
 
+.form__review--enter
+.from__all {
+max-width: 100%;
+}
+
 .form__input--text {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .from__name--vk {
+  display: flex;
   flex-direction: row;
+  margin-bottom: 2px;
+}
+
+.from__name--field {
+  margin-right: 23px;
 }
 
 .form__name {
-  flex-direction: column;
+  max-width: 100%;
+}
+
+.form__input--text {
+  color: #221f1f;
+  font-family: "GothamPro";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2.8em;
+}
+
+.form__name--input {
+  border: 0 solid #fff;
+}
+
+.form__name--input:focus {
+  outline: none;
+  border: 1px solid #ec1e79;
+}
+
+.from__label {
+  opacity: 0.5;
+  padding-left: 10px;
+}
+
+.form__text {
+  background: #ffffff;
+}
+
+.form__name--input {  
+  width: 269px;
+  height: 45px;
+  display: block;
+}
+
+.form__text--reviews {
+  margin-bottom: 14px;
+}
+
+.form__texttarea {
+  display: block;
+  width: 561px;
+  height: 90px;
+  margin: 0;
+}
+
+.form__radio--submit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.form__radio--link {
+  display: flex;
   flex: 1;
+  flex-direction: column;
+}
+
+.form__radio {
+  display: flex;
+  flex-direction: row;
+}
+
+.form__radio--control {
+  margin-right: 4px;
+}
+
+.form__radio--foto {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-right: 20px;
+}
+
+.form__send--align-right {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.form__submit--send {
+  display: none;
+}
+
+.form__submit--button {
+  width: 139px;
+  height: 45px;
+  color: #ffffff;
+  font-family: "GothamPro";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 2.8em;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  background-color: #27273e;
+  border-radius: 5px;
 }
