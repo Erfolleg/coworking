@@ -127,3 +127,7 @@ max-width: 100%;
   background-color: #27273e;
   border-radius: 5px;
 }
+
+.form__submit--button:hover {
+  background-color: #ec1e79;
+}

@@ -41,6 +41,8 @@
   color: #fff;
 }
 
-.page__comments .pagination__sheets--active .pagination__link {
-  color: #ec1e79;
+.pagination__prev:hover,
+.pagination__link:hover,
+.pagination__next:hover {
+  color: #ae2264;
 }
