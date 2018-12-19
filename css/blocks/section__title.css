@@ -1,13 +1,17 @@
 .section__title {
   margin-top: 0;
-  margin-bottom: 57px;
+  margin-bottom: 50px;
   color: #221f1f;
   font-family: "GothamPro";
   font-size: 49px;
   font-weight: 700;
-  line-height: 1em;
+  line-height: .75em;
 }
 
 .section__title--news {
   margin-bottom: 73px;
+}
+
+.section__title--form {
+  margin-bottom: 17px;
 }

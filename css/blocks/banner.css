@@ -1,6 +1,12 @@
 .banner {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 53px;
   background: #27273e;
+  display: flex;
+justify-content: center;
+margin-bottom: 55px;
+margin-top: -35px;
+}
+
+.banner__pic-icon {
+  display: block;
+  max-width: 100%;
 }

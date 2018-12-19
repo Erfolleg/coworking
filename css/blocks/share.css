@@ -1,0 +1,31 @@
+.share {
+  content: "";
+  display: flex;
+  background-color: #27273e;
+  background-image: url('../../img/Group_1.png');
+  margin-bottom: 57px;
+  flex: 1;
+}
+
+.share__pattern {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.share__text {
+  width: 660px;
+  margin: 0 auto;
+  padding: 48px 0;
+  color: #ffffff;
+  font-family: "GothamPro";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.share__discount {
+  color: #ec1e79;
+  font-family: "GothamPro";
+  font-weight: 700;
+}
