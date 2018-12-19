@@ -104,3 +104,11 @@
   font-family: "GothamPro";
   font-weight: 300;
 }
+
+.prices__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.prices__item:nth-child(n+4) {
+  margin-bottom: 0;
+}

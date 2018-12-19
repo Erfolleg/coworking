@@ -1,6 +1,7 @@
 .comments__list {
     display: flex;
   flex-wrap: wrap;
+  margin-bottom: 28px;
 }
 
 .comments__sections {
@@ -14,7 +15,8 @@ li.comments__sections {
 }
 
 li.comments__sections:nth-child(4) {
-  border: none;
+  border: none;  
+  margin-bottom: 0;
 }
 
 .comments__avatar {

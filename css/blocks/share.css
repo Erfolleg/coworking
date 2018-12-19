@@ -2,11 +2,9 @@
   content: "";
   display: flex;
   background-color: #27273e;
-  margin-bottom: 57px;
-}
-
-.share__img {
   background-image: url('../../img/Group_1.png');
+  margin-bottom: 57px;
+  flex: 1;
 }
 
 .share__pattern {
@@ -17,7 +15,8 @@
 
 .share__text {
   width: 660px;
-  margin: 48px auto;
+  margin: 0 auto;
+  padding: 48px 0;
   color: #ffffff;
   font-family: "GothamPro";
   font-size: 18px;

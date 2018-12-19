@@ -5,4 +5,5 @@
 .main__comments {
   display: flex;
   flex-direction: column;
+  margin-bottom: 0;
 }

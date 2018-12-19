@@ -35,3 +35,16 @@ h1, h2, h3, h4, h5, h6 {
 * {
   box-sizing: border-box;
 }
+
+.wrapper {
+  overflow: hidden;
+  min-width: 1100px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.wrapper__content {
+  flex: 1;
+}

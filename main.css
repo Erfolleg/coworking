@@ -1,9 +1,10 @@
 @import url('./css/layout/fonts.css');
 @import url('./css/layout/normalize.css');
 @import url('./css/layout/base.css');
+@import url('./css/blocks/intro.css');
+
 
 @import url('./css/blocks/container.css');
-@import url('./css/blocks/wrapper.css');
 @import url('./css/blocks/section__title.css');
 @import url('./css/blocks/main_block.css');
 @import url('./css/blocks/header.css');
