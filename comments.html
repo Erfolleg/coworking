@@ -23,7 +23,16 @@
           <div class="header__col header__col--align-right">
             <address class="contacts">
               <a href="tel:+78000039210" class="contacts__phone">8 (800)00-392-10</a>
-              <div class="contacts__description">График работы</div>
+              <div class="contacts__description--dropdown">
+                <div class="dropdown__link">График работы</div>
+                <div class="dropdown__menu">
+                  <div class="dropdown__menu--triangle"></div>
+                  <ul class="dropdown__list">
+                    <li class="dropdown__item">пн-вс: 09:00-20:00</li>
+                    <li class="dropdown__item dropdown__item--black">обед: 14:00-14:30</li>
+                  </ul>
+                </div>
+              </div>
             </address>
           </div>
         </div>
@@ -174,66 +183,66 @@
             </div>
           </div>
         </div>
-       
+
       </main>
       <div class="share">
-          <div class="share__pattern">
-            <p class="share__text">Для наших новых клиентов мы предлагаем
-              <b class="share__discount">скидку 50%</b>
-              на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
-            </p>
+        <div class="share__pattern">
+          <p class="share__text">Для наших новых клиентов мы предлагаем
+            <b class="share__discount">скидку 50%</b>
+            на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+          </p>
+        </div>
+      </div>
+      <div class="form">
+        <div class="container">
+          <div class="container__form">
+            <form action="#" class="form__review--enter">
+              <h2 class="section__title section__title--form">Оставить отзыв</h2>
+              <div class="form__input--text">
+                <ul class="from__all">
+                  <li class="from__name--vk">
+                    <div class="from__name--field">
+                      <label for="name" class="form__name--label">Ваше имя</label>
+                      <input type="name" class="form__name--input from__label" placeholder="Андрей">
+                    </div>
+                    <div class="from__name--field">
+                      <label for="name" class="form__name--label">Ссылка на профиль VK</label>
+                      <input type="text" class="form__name--input from__label" placeholder="vk.com/example">
+                    </div>
+                  </li>
+                  <li class="form__name">
+                    <label for="name" class="form__name--label">Текст отзыва</label>
+                    <div class="form__text form__text--reviews">
+                      <textarea name="comment" id="" cols="60" rows="5" class="form__name--input form__texttarea"></textarea>
+                    </div>
+                  </li>
+                  <li class="form__radio--submit">
+                    <div class="form__radio--link">
+                      <label for="name" class="form__name--label">Отображать фото в отзыве?</label>
+                      <div class="form__radio form__name--label">
+                        <label class="form__radio--foto">
+                          <input type="radio" name="radio__link" class="form__radio--control">
+                          <div class="form__radio--mod"></div>
+                          <div class="form__input--text">Да</div>
+                        </label>
+                        <label class="form__radio--foto">
+                          <input type="radio" name="radio__link" class="form__radio--control">
+                          <div class="form__radio--mod"></div>
+                          <div class="form__input--text">Нет</div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form__send form__send--align-right">
+                      <input type="submit" class="form__submit--send" value="Отправить">
+                      <button type="submit" class="form__submit--button">Отправить</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="form">
-          <div class="container">
-            <div class="container__form">
-              <form action="#" class="form__review--enter">
-                <h2 class="section__title section__title--form">Оставить отзыв</h2>
-                <div class="form__input--text">
-                  <ul class="from__all">
-                    <li class="from__name--vk">
-                      <div class="from__name--field">
-                        <label for="name" class="form__name--label">Ваше имя</label>
-                        <input type="name" class="form__name--input from__label" placeholder="Андрей">
-                      </div>
-                      <div class="from__name--field">
-                        <label for="name" class="form__name--label">Ссылка на профиль VK</label>
-                        <input type="text" class="form__name--input from__label" placeholder="vk.com/example">
-                      </div>
-                    </li>
-                    <li class="form__name">
-                      <label for="name" class="form__name--label">Текст отзыва</label>
-                      <div class="form__text form__text--reviews">
-                        <textarea name="comment" id="" cols="60" rows="5" class="form__name--input form__texttarea"></textarea>
-                      </div>
-                    </li>
-                    <li class="form__radio--submit">
-                      <div class="form__radio--link">
-                        <label for="name" class="form__name--label">Отображать фото в отзыве?</label>
-                        <div class="form__radio form__name--label">
-                          <label class="form__radio--foto">
-                            <input type="radio" name="radio__link" class="form__radio--control">
-                            <div class="form__radio--mod"></div>
-                            <div class="form__input--text">Да</div>
-                          </label>
-                          <label class="form__radio--foto">
-                            <input type="radio" name="radio__link" class="form__radio--control">
-                            <div class="form__radio--mod"></div>
-                            <div class="form__input--text">Нет</div>
-                          </label>
-                        </div>
-                      </div>
-                      <div class="form__send form__send--align-right">
-                        <input type="submit" class="form__submit--send" value="Отправить">
-                        <button type="submit" class="form__submit--button">Отправить</button>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+      </div>
     </div>
 
     <footer class="footer">

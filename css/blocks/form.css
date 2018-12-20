@@ -52,6 +52,8 @@
 
 .form__name--input {
   border: 0 solid #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .form__name--input:focus {
@@ -62,6 +64,7 @@
 .from__label {
   opacity: 0.5;
   padding-left: 10px;
+  white-space: nowrap;
 }
 
 .form__text {
