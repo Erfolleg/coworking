@@ -44,5 +44,6 @@
 .pagination__prev:hover,
 .pagination__link:hover,
 .pagination__next:hover {
+  transition: .3s;
   color: #ae2264;
 }

@@ -36,11 +36,30 @@
   margin-bottom: 12px;
 }
 
-.features__icon-pic {
+.features__icon--pic {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+  background: url('../../img/icon/sprites.png');
+}
+
+.pic__flower {
+  width: 27px;
+  height: 31px;
+  background-position: -603px -238px;
+}
+
+.pic__star {
+  width: 32px;
+  height: 32px;
+  background-position: -551px -238px;
+}
+
+.pic__painter {
+  width: 28px; 
+  height: 29px;
+  background-position: -650px -238px;
 }
 
 .features__title {

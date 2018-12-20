@@ -90,30 +90,63 @@
 
 .form__radio--submit {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
-.form__radio--link {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-}
-
-.form__radio {
-  display: flex;
-  flex-direction: row;
+.form__radio--foto {
+  position: relative;
 }
 
 .form__radio--control {
   margin-right: 4px;
+  display: none;
 }
 
-.form__radio--foto {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
+.form__radio--mod {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+.form__radio--mod,
+.form__input--text{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.form__radio--control:checked ~ .form__input--text::before {
+  content: "";
+	display: block;
+	position: absolute;
+  top: -5%;
+  left: 0%;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ec1e79;
+}
+
+.form__radio--control:checked ~ .form__radio--mod::before {
+  content: "";
+	display: block;
+	position: absolute;
+  top: 37%;
+  left: 9%;
+  width: 8px;
+  height: 8px;
+  background:  #ec1e79;
+  border-radius: 50%;
+}
+
+.form__radio--mod,
+.form__radio--control:checked ~ .form__input--text:before {
+  border-radius: 50%;
+}
+
+.form__input--text {
   margin-right: 20px;
+}
+
+.form__input--text:nth-child(2) {
+  margin-right: 0;
 }
 
 .form__send--align-right {
@@ -141,5 +174,6 @@
 }
 
 .form__submit--button:hover {
-  background-color: #ec1e79;
+  background-color: #ec1e79; 
+  transition: .2s;
 }

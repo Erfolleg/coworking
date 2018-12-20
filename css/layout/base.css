@@ -48,3 +48,9 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper__content {
   flex: 1;
 }
+
+.logo {
+  width: 99px; 
+  height: 51px;
+  background: url('../../img/icon/sprites.png') -460px -377px;
+}

@@ -35,6 +35,10 @@ li.comments__sections:nth-child(4) {
   max-width: 100%;
 }
 
+.comments__avatar--no {
+  opacity: 0.3;
+}
+
 .comments__discription {
   width: 82.1%;
   color: #221f1f;

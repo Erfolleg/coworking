@@ -10,6 +10,10 @@
   align-items: center;
 }
 
+.footer__logo {
+  display: block;
+}
+
 .footer__col--align-right {
   justify-content: flex-end;
 }
