@@ -5,6 +5,10 @@
   align-items: baseline;
 }
 
+.pagination__comments {
+  margin-bottom: 60px;
+}
+
 .pagination__display {
   display: inline-flex;
   width: 110px;

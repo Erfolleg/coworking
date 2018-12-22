@@ -1,5 +1,5 @@
 .news {
-  margin-bottom: 56px;
+  margin-bottom: 20px;
 }
 
 .news__list {
@@ -17,7 +17,7 @@
 }
 
 .news__avatar {
-  width: 17.9%;
+  width: 21%;
   margin-right: 24px;
 }
 

@@ -1,7 +1,7 @@
 .header {
   background: #27273e;
   color: #fff;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .header__container {
@@ -18,4 +18,9 @@
 
 .header__col--align-right {
   justify-content: flex-end;
+}
+
+.header__col--menu {
+  flex: 2;
+  justify-content: space-around;
 }
