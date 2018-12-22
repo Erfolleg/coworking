@@ -84,7 +84,7 @@
                 <nav class="menu">
                   <ul class="menu__list">
                     <li class="menu__item">
-                      <a href="./index.html" class="menu__link menu__link--main">Главная</a>
+                      <a href="./main.html" class="menu__link menu__link--main">Главная</a>
                     </li>
                     <li class="menu__item menu__item--active">
                       <a href="./comments.html" class="menu__link menu__link--feed">Отзывы </a>
@@ -217,55 +217,56 @@
                       <a href="#" class="pagination__next">></a>
                 </div>
               </div>
-              <div class="form">
-
-                <div class="container__form">
-                  <form action="#" class="form__review--enter">
-                    <h2 class="section__title section__title--form">Оставить отзыв</h2>
-                    <div class="form__input--text">
-                      <ul class="from__all">
-                        <li class="from__name--vk">
-                          <div class="from__name--field">
-                            <label for="name" class="form__name--label">Ваше имя</label>
-                            <input type="name" class="form__name--input from__label" placeholder="Андрей">
-                          </div>
-                          <div class="from__name--field">
-                            <label for="name" class="form__name--label">Ссылка на профиль VK</label>
-                            <input type="text" class="form__name--input from__label" placeholder="vk.com/example">
-                          </div>
-                        </li>
-                        <li class="form__name">
-                          <label for="name" class="form__name--label">Текст отзыва</label>
-                          <div class="form__text form__text--reviews">
-                            <textarea name="comment" id="" cols="60" rows="5" class="form__name--input form__texttarea"></textarea>
-                          </div>
-                        </li>
-                        <li class="form__radio--submit">
-                          <div class="form__radio--link">
-                            <label for="name" class="form__name--label">Отображать фото в отзыве?</label>
-                            <div class="form__radio form__name--label">
-                              <label class="form__radio--foto">
-                                <input type="radio" name="radio__link" class="form__radio--control">
-                                <span class="form__radio--mod"></span>
-                                <span class="form__input--text">Да</span>
+              <div class="container__inner">
+                <div class="form">
+                  <div class="form__inner">
+                    <form action="" class="form__elem">
+                      <div class="form__title">Оставить отзыв</div>
+                      <div class="form__content">
+                        <div class="form__row">
+                          <label class="form__block">
+                            <div class="form__block-title">Ваше имя</div>
+                            <input type="text" class="form__input" placeholder="Андрей">
+                          </label>
+                          <label class="form__block">
+                            <div class="form__block-title">Ссылка на профиль VK</div>
+                            <input type="text" class="form__input" placeholder="vk.com/example">
+                          </label>
+                        </div>
+                        <div class="from__row">
+                          <label class="form__block">
+                            <div class="form__block-title">Текст отзыва</div>
+                            <textarea name="" class="form__input form__input--textarea" rows="4"></textarea>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form__buttons">
+                        <div class="form__controls-area">
+                          <div class="form-controlls">
+                            <div class="form-controlls__title">Отображать фото в отзыве?</div>
+                            <div class="form-controlls__buttons">
+                              <label class="form-controlls__btn">
+                                <input type="radio" name="answer" class="form-controlls__real-radio">
+                                <div class="form-controlls__fake-radio"></div>
+                                <div class="form-controlls__btn-title">Да</div>
                               </label>
-                              <label class="form__radio--foto">
-                                <input type="radio" name="radio__link" class="form__radio--control">
-                                <span class="form__radio--mod"></span>
-                                <span class="form__input--text">Нет</span>
+                              <label class="form-controlls__btn">
+                                <input type="radio" name="answer" class="form-controlls__real-radio">
+                                <div class="form-controlls__fake-radio"></div>
+                                <div class="form-controlls__btn-title">Нет</div>
                               </label>
                             </div>
                           </div>
-                          <div class="form__send form__send--align-right">
-                            <input type="submit" class="form__submit--send" value="Отправить">
-                            <button type="submit" class="form__submit--button">Отправить</button>
+                        </div>
+                        <div class="form__buttons-area">
+                          <div class="form__buttons-item">
+                            <button type="submit" class="btn">Отправить</button>
                           </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </form>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
-
               </div>
             </div>
           </div>

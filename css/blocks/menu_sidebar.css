@@ -35,17 +35,17 @@
 
 .menu__link:hover {
   color: #000000;
-  transition: .2s;
+  transition: .3s;
 }
 
 .menu__link--main:hover::before {
   opacity: 0;
-  transition: .3s;
+  transition: .2s;
 }
 
 .menu__link--main:hover::after {
   opacity: 1;
-  transition: .3s;
+  transition: .2s;
 }
 
 .menu__link--main:before {
@@ -77,12 +77,12 @@
 
 .menu__link--feed:hover::before {
   opacity: 0;
-  transition: .3s;
+  transition: .2s;
 }
 
 .menu__link--feed:hover::after {
   opacity: 1;
-  transition: .3s;
+  transition: .2s;
 }
 
 .menu__link--feed:before {
@@ -114,12 +114,12 @@
 
 .menu__link--wallet:hover::before {
   opacity: 0;
-  transition: .3s;
+  transition: .2s;
 }
 
 .menu__link--wallet:hover::after {
   opacity: 1;
-  transition: .3s;
+  transition: .2s;
 }
 
 .menu__link--wallet:before {
