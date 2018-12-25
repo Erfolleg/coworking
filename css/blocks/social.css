@@ -1,90 +1,78 @@
-.social {
-  justify-content: flex-end;
-}
-
 .social__text-link {
   padding: 0;
-  color: #ffffff;
-  font-family: "Gotham";
+  color: #221f1f;
+  font-family: "GothamPro";
   font-size: 14px;
   font-weight: 700;
   line-height: 2em;
+  text-align: center;
 }
 
 .social__network{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .social__icon {
-  margin-right: 7px;
-}
+    margin-right: 7px;
+  }
 
 .social__icon:nth-child(5) {
   margin-right: 0;
 }
 
 .social__link {
-  content: "";
   display: flex;
+  position: relative;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background:  center center no-repeat;
-}
+  background-image: url('../../img/icon/sprites.png');
+  background-color: #fff;
+  }
 
 .social__icon-vk {
-  background-image: url('../../img/icon/vk.png');
-  background-color: #d4d4d8;
+  background-position: -1025px -231px;
 }
 
 .social__icon-vk:hover {
-  background-image: url('../../img/icon/vk.png');
   background-color: #ec1e79;
   transition: 0.3s;
 }
 
 .social__icon-fb {
-  background-image: url('../../img/icon/fb.png');
-  background-color: #d4d4d8;
+  background-position: -184px -315px;
 }
 
 .social__icon-fb:hover {
-  background-image: url('../../img/icon/fb.png');
   background-color: #ec1e79;
   transition: 0.3s;
 }
 
 .social__icon-google {
-  background-image: url('../../img/icon/google.png');
-  background-color: #d4d4d8;
+  background-position: -928px -233px;
 }
 
 .social__icon-google:hover {
-  background-image: url('../../img/icon/google.png');
   background-color: #ec1e79;
   transition: 0.3s;
 }
 
 .social__icon-twitter {
-  background-image: url('../../img/icon/twitter.png');
-  background-color: #d4d4d8;
+  background-position: -992px -233px;
 }
 
 .social__icon-twitter:hover {
-  background-image: url('../../img/icon/twitter.png');
   background-color: #ec1e79;
   transition: 0.3s;
 }
 
 .social__icon-mail {
-  background-image: url('../../img/icon/mail.png');
-  background-color: #d4d4d8;
+  background-position: -961px -233px;
 }
 
 .social__icon-mail:hover {
-  background-image: url('../../img/icon/mail.png');
   background-color: #ec1e79;
   transition: 0.3s;
 }

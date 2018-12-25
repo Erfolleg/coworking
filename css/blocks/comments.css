@@ -1,3 +1,7 @@
+.comments {
+  
+}
+
 .comments__list {
     display: flex;
   flex-wrap: wrap;
@@ -6,7 +10,7 @@
 
 .comments__sections {
   display: flex;
-  margin-bottom: 28px;
+  margin-bottom: 15px;
 }
 
 li.comments__sections {
@@ -35,6 +39,10 @@ li.comments__sections:nth-child(4) {
   max-width: 100%;
 }
 
+.comments__avatar--no {
+  opacity: 0.3;
+}
+
 .comments__discription {
   width: 82.1%;
   color: #221f1f;
@@ -61,5 +69,5 @@ li.comments__sections:nth-child(4) {
   margin: 0;
   font-family: "Roboto";
   font-weight: lighter;
-  line-height: 1.6em;
+  line-height: 1.7em;
 }

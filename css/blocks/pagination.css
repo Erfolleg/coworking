@@ -5,6 +5,10 @@
   align-items: baseline;
 }
 
+.pagination__comments {
+  margin-bottom: 60px;
+}
+
 .pagination__display {
   display: inline-flex;
   width: 110px;
@@ -44,5 +48,6 @@
 .pagination__prev:hover,
 .pagination__link:hover,
 .pagination__next:hover {
+  transition: .3s;
   color: #ae2264;
 }

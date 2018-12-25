@@ -1,27 +1,33 @@
+.share__social {
+  width: 24%;
+  margin-right: 15px;
+  padding-top: 17px;
+}
+
 .share {
   content: "";
   display: flex;
   background-color: #27273e;
-  background-image: url('../../img/Group_1.png');
-  margin-bottom: 57px;
+  background-image: url('../../img/icon/Group_1.png');
   flex: 1;
+  margin-bottom: 30px;
 }
 
 .share__pattern {
   display: flex;
   flex: 1;
-  align-items: center;
+  flex-direction: column;
+  padding: 20px 5px;
 }
 
 .share__text {
-  width: 660px;
   margin: 0 auto;
-  padding: 48px 0;
   color: #ffffff;
   font-family: "GothamPro";
   font-size: 18px;
   font-weight: 300;
-  line-height: 1.6em;
+  line-height: 1.7em;
+  text-align: center;
 }
 
 .share__discount {
